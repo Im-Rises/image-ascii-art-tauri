@@ -1,4 +1,4 @@
-import React from 'react';
+/* eslint-disable react/react-in-jsx-scope */
 import './GitHubProjectPanel.scss';
 import GitHubLogoImage from '../images/github.svg';
 
