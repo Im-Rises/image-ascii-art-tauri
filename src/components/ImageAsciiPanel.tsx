@@ -1,4 +1,3 @@
-// eslint-disable react/react-in-jsx-scope
 import React, {useRef, useState} from 'react';
 import './ImageAsciiPanel.scss';
 import {AutoResolutionSelector} from './resolution-parameters/AutoResolutionSelector';

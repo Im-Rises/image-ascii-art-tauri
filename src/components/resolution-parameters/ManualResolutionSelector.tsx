@@ -1,4 +1,3 @@
-// eslint-disable react/react-in-jsx-scope
 import React, {useRef, useState} from 'react';
 import './ManualResolutionSelector.scss';
 

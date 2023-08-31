@@ -52,6 +52,7 @@
     "max-params": [
       "error",
       6
-    ]
+    ],
+    "react/react-in-jsx-scope": "off"
   }
 }
