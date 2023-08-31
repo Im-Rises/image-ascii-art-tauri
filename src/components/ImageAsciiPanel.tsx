@@ -13,6 +13,7 @@ const ImageAsciiPanel = () => {
 	const [isImageReady, setIsImageReady] = useState(false);
 	const [charsPerLine, setCharsPerLine] = useState(0);
 	const [charsPerColumn, setCharsPerColumn] = useState(0);
+	// noinspection TypeScriptValidateTypes
 	const inputRef = useRef<HTMLInputElement>(null);
 
 	// Mode resolution selection
@@ -31,6 +32,7 @@ const ImageAsciiPanel = () => {
 	// Handle image selection
 	const handleImageChange = () => {
 		if (inputRef.current?.files?.length) {
+			// noinspection TypeScriptValidateTypes
 			const file = inputRef.current.files[0];
 			const reader = new FileReader();
 			reader.onload = () => {
