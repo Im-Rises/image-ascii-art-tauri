@@ -1,11 +1,11 @@
 import React, {useRef, useState} from 'react';
 import './ImageAsciiPanel.scss';
-import GitHubProjectPanel from './github/GitHubProjectPanel';
-import {AUTHOR, GITHUB_URL} from '../constants/pixel-ascii';
 import {AutoResolutionSelector} from './resolution-parameters/AutoResolutionSelector';
 import {ManualResolutionSelector} from './resolution-parameters/ManualResolutionSelector';
 import {ImageAsciiViewPage} from './image-view-page/ImageAsciiViewPage';
 import {ModeResolutionSelector} from './mode-resolution-selector/ModeResolutionSelector';
+import {AUTHOR, GITHUB_URL} from '../constants/pixel-ascii';
+import GitHubProjectPanel from './github/GitHubProjectPanel';
 
 const ImageAsciiPanel = () => {
 	// Image data elements
@@ -80,6 +80,7 @@ const ImageAsciiPanel = () => {
 							<ModeResolutionSelector useAutoAspectRatio={useAutoAspectRatio}
 								setUseAutoAspectRatio={setUseAutoAspectRatio}/>
 						</div>
+
 						<div className={'image-input-container'}>
 							<div className={'image-settings'}>
 								{
