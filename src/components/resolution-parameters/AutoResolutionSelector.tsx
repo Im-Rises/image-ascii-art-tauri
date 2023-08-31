@@ -1,4 +1,5 @@
-import React, {useRef} from 'react';
+// eslint-disable react/react-in-jsx-scope
+import React from 'react';
 import './AutoResolutionSelector.scss';
 
 type AutoImageResolutionSelectorProps = {
