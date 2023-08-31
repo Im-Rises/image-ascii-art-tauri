@@ -54,6 +54,7 @@
       6
     ],
     "react/react-in-jsx-scope": "off",
-    "react/no-unused-vars": "off"
+    "react/no-unused-vars": "off",
+    "no-unused-vars": "off"
   }
 }
