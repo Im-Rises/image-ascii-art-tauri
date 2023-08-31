@@ -1,6 +1,6 @@
 /* eslint-disable react/react-in-jsx-scope */
 import './GitHubProjectPanel.scss';
-import GitHubLogoImage from '../images/github.svg';
+import GitHubLogoImage from '../../images/github.svg';
 
 type Props = {
 	link: string;
